@@ -1,13 +1,13 @@
 <template>
-  <div></div>
+  <div>
+    <keep-alive exclude="SearchResult,sousuo,wenzhang,UserEdit">
+      <router-view> </router-view>
+    </keep-alive>
+  </div>
 </template>
 
 <script>
-export default {
-  methods: {
-
-  }
-}
+export default {}
 </script>
 
 <style lang="less"></style>
